@@ -526,7 +526,7 @@ function (x, m = 4, rotate.structure=NULL)
     dimnames(z) <- dn
     class(z) <- "loadings"
     result <- list(loadings = z, rotmat = U, Phi = Phi)
-    class(result) <- c("HDMD", "psych")
+    class(result) <- c("HDMD")
     return(result)
 }
 
