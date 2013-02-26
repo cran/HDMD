@@ -2,8 +2,8 @@ Package: HDMD
 Type: Package
 Title: Statistical Analysis Tools for High Dimension Molecular Data
         (HDMD)
-Version: 1.1
-Date: 2012-9-19
+Version: 1.2
+Date: 2013-2-26
 Author: Lisa McFerrin
 Maintainer: Lisa McFerrin <lgmcferr@ncsu.edu>
 Depends: psych, MASS
@@ -49,6 +49,7 @@ Description: High Dimensional Molecular Data (HDMD) typically have many
         amino acid sequences using the amino acid indices determined by
         Atchley et al 2005.
 License: GPL (>= 2)
-Packaged: 2012-09-20 20:38:38 UTC; LisaMc
+Packaged: 2013-02-26 21:32:05 UTC; LisaMc
+NeedsCompilation: no
 Repository: CRAN
-Date/Publication: 2012-09-21 05:21:52
+Date/Publication: 2013-02-27 07:31:03

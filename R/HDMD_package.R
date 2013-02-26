@@ -328,9 +328,9 @@ factor.pa.ginv = function (r, nfactors = 1, residuals = FALSE, prerotate= FALSE,
             err <- 0
         }
     }
-    if (!is.real(loadings)) {
+    if (!is.numeric(loadings)) {
         warning("the matrix has produced imaginary results -- proceed with caution")
-        loadings <- matrix(as.real(loadings), ncol = nfactors)
+        loadings <- matrix(as.double(loadings), ncol = nfactors)
     }
     
     if (nfactors > 1) {
